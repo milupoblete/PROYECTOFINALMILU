@@ -1,0 +1,86 @@
+body{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    background: #0f0c29;  
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+}
+.colorletra{
+    color: white;
+}
+.Navbar{
+    background-color:  #18143d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 13px;
+    position: relative;
+
+}
+.btncontainer{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.imglogo{
+    width: 200px;
+    position: absolute;
+    
+    left: 50%;
+    translate: -50%;
+}
+
+.menu{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 5px 20px;
+}
+.menu:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.contacto:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+input{
+    height: 25px;
+    width: 30%;
+    background-color: #5852a0;
+    font-size: 1.2rem;
+    border: none;
+    padding: 15px;
+}
+.div-info{
+    text-align: center;
+    padding: 0px;
+}
+.parrafo{
+    text-align: center;
+    padding: 40px 115px;
+}
+
+.nav-item{
+    background-color:  #18143d;
+    cursor: pointer;
+    border: black;
+    color: black;  
+}
+/*-------mediaquerias--------*/
+
+@media(max-width:980px){
+    input{
+        display: none; 
+    }
+    .imglogo{
+        position: static;
+        translate: 0%;
+    
+    }
+}
